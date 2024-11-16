@@ -1,10 +1,31 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Sevillana");
-
 /* To change specicif part of the chatbot */
 .vfrc-assistant-info--title{
   --fonts-default: 'Sevillana', cursive;
 }
+/* Adjust the footer width */
+.vf-footer {
+  width: 100%; /* Expand to full container width */
+  max-width: 800px; /* Set a maximum width */
+  margin: 0 auto; /* Center the footer */
+}
+
+/* Adjust the input field */
+.vfrc-input {
+  width: 90%; /* Make the input field occupy most of the footer */
+  padding: 10px 15px; /* Adjust padding for better usability */
+  border-radius: 8px; /* Optional: Add rounded corners for aesthetics */
+  border: 1px solid #ccc; /* Optional: Add a light border */
+}
+
+/* Adjust the send button (optional, for spacing harmony) */
+.vfrc-chat-input--button {
+  width: auto; /* Allow button to fit content */
+  padding: 10px 20px; /* Adjust padding */
+  margin-left: 10px; /* Add some space between input and button */
+}
+
 
 /* To Change all*/
 :host{
