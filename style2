@@ -1,5 +1,5 @@
 .vfrc-system-response {
-  max-width: 95% !important; /* Force the container to be wider */
+  max-width: 100% !important; /* Force the container to be wider */
   margin: 10px auto !important; /* Center-align with enforced priority */
 }
 
