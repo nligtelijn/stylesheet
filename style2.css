@@ -12,3 +12,7 @@
   background-color: #f5f5f5; /* Keep the light background for clarity */
   word-wrap: break-word; /* Prevent text from overflowing */
 }
+/* Apply font only to the assistant title */
+.vfrc-assistant-info--title {
+  font-family: 'Sevillana', cursive;
+}
