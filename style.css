@@ -1,25 +1,26 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Sevillana");
-/* To change specicif part of the chatbot */
-.vfrc-assistant-info--title{
+
+/* Apply specific font to assistant title */
+.vfrc-assistant-info--title {
+  font-family: 'Sevillana', cursive;
+}
+
+/* Global font fallback (optional) */
+:host {
   --fonts-default: 'Sevillana', cursive;
 }
+
 /* Adjust system response container width */
 .vfrc-system-response {
-  max-width: 90%; /* Adjust to your preferred width, e.g., 90% of the chat container */
-  margin: 5px auto; /* Center align and add some spacing */
+  max-width: 95%; /* Widen to 95% */
+  margin: 5px auto; /* Center align */
 }
 
 /* Adjust the system response message itself */
 .vfrc-system-response .vfrc-message {
-  width: 100%; /* Ensure it takes up the full width of the container */
-  padding: 12px 16px; /* Adjust padding for readability */
-  border-radius: 8px; /* Optional: Add rounded corners */
-  background-color: #f5f5f5; /* Optional: Light background for contrast */
-}
-
-
-/* To Change all*/
-:host{
-  --fonts-default: 'Sevillana', cursive;
+  width: 100%;
+  padding: 14px 20px; /* Increase padding for better readability */
+  border-radius: 10px; /* Slightly more rounded corners */
+  background-color: #f5f5f5; /* Light background for contrast */
+  word-wrap: break-word; /* Prevent text overflow */
 }
