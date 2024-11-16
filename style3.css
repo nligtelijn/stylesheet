@@ -6,7 +6,7 @@
 }
 /* Adjust system response container width */
 .vfrc-system-response {
-  max-width: 95%; /* Widen to 95% */
+  max-width: 100%; /* Widen to 95% */
   margin: 5px auto; /* Center align */
 }
 
