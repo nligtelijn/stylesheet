@@ -1,0 +1,14 @@
+/* Widen the system response container */
+.vfrc-system-response {
+  max-width: 95%; /* Make it wider (adjust percentage as needed) */
+  margin: 10px auto; /* Center it within the chat container */
+}
+
+/* Ensure the system message spans the container properly */
+.vfrc-system-response .vfrc-message {
+  width: 100%; /* Fill the available container space */
+  padding: 12px 16px; /* Adjust padding for readability */
+  border-radius: 8px; /* Maintain rounded corners for consistency */
+  background-color: #f5f5f5; /* Keep the light background for clarity */
+  word-wrap: break-word; /* Prevent text from overflowing */
+}
