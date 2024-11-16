@@ -1,1 +1,20 @@
-xx
+@import url("https://fonts.googleapis.com/css2?family=Sevillana");
+
+/* To change specicif part of the chatbot */
+.vfrc-assistant-info--description{
+  --fonts-default: 'Sevillana', cursive;
+}
+/* Adjust system response container width */
+.vfrc-system-response {
+  max-width: 95%; /* Widen to 95% */
+  margin: 5px auto; /* Center align */
+}
+
+/* Adjust the system response message itself */
+.vfrc-system-response .vfrc-message {
+  width: 100%;
+  padding: 14px 20px; /* Increase padding for better readability */
+  border-radius: 10px; /* Slightly more rounded corners */
+  background-color: #f5f5f5; /* Light background for contrast */
+  word-wrap: break-word; /* Prevent text overflow */
+}
