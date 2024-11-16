@@ -6,7 +6,7 @@
 }
 /* Adjust system response container width */
 .vfrc-system-response {
-  max-width: 80%; /* Adjust to your preferred width, e.g., 80% of the chat container */
+  max-width: 90%; /* Adjust to your preferred width, e.g., 90% of the chat container */
   margin: 10px auto; /* Center align and add some spacing */
 }
 
