@@ -13,6 +13,6 @@
   word-wrap: break-word; /* Prevent text from overflowing */
 }
 /* Apply font only to the assistant title */
-.vfrc-assistant-info--title {
+.vfrc-assistant-info--description {
   font-family: 'Sevillana', cursive;
 }
