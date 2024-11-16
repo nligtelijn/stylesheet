@@ -1,14 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Sevillana");
 
-/* Apply specific font to assistant title */
-.vfrc-assistant-info--title {
-  font-family: 'Sevillana', cursive;
-}
-
-/* Global font fallback (optional) */
-:host {
-  --fonts-default: 'Sevillana', cursive;
-}
 
 /* Widen the system response container */
 .vfrc-system-response {
