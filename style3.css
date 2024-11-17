@@ -32,6 +32,15 @@ button {
   cursor: pointer; /* Show a pointer when hovering */
   transition: background-color 0.3s ease; /* Smooth hover effect */
 }
+/* Target the arrow button */
+.vfrc-send-button {
+  background-color: #4CAF50; /* Change to green or your desired color */
+  color: white; /* Ensure the icon is visible */
+  border: none; /* Remove border if any */
+  border-radius: 50%; /* Keep the circular shape */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
 
 .vfrc-chat--dialog {
   max-width: 100% !important; /* Ensure the dialog container also respects this width */
