@@ -32,14 +32,13 @@ button {
   cursor: pointer; /* Show a pointer when hovering */
   transition: background-color 0.3s ease; /* Smooth hover effect */
 }
-/* Target the arrow button */
-.vfrc-send-button {
-  background-color: orange; /* Change to green or your desired color */
-  color: white; /* Ensure the icon is visible */
-  border: none; /* Remove border if any */
-  border-radius: 50%; /* Keep the circular shape */
-  cursor: pointer; /* Pointer on hover */
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+/* Change the color of the arrow in the input button */
+.vfrc-chat-input-button {
+  background-color: transparent; /* Ensure no background interference */
+}
+
+.vfrc-chat-input-button svg {
+  fill: #000000; /* Set the arrow color to black */
 }
 
 /* Style the entire user message container */
