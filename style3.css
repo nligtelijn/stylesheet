@@ -5,7 +5,7 @@
   --fonts-default: 'Sevillana', cursive;
 }
 .vfrc-chat--dialog {
-  max-width: 95% !important; /* Ensure the dialog container also respects this width */
+  max-width: 100% !important; /* Ensure the dialog container also respects this width */
   margin: 0 auto;
 }
 /* Adjust system response container width */
