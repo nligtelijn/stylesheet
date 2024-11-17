@@ -42,10 +42,24 @@ button {
   transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
-/* Target the arrow inside the user message container */
+/* Style the entire user message container */
+.vfrc-user-message {
+  background-color: #28a745; /* Set a new background color (green in this case) */
+  color: #ffffff; /* Ensure text inside is readable on the new background */
+  border-radius: 8px; /* Optional: Round the corners */
+  padding: 12px 16px; /* Adjust spacing inside the message */
+}
+
+/* Adjust SVG or icon styles within the user message */
+.vfrc-user-message svg,
 .vfrc-user-message .arrow {
-  color: #28a745; /* Replace with your desired color (e.g., green) */
-  fill: #28a745; /* For SVGs, set the fill color */
+  fill: #ffffff; /* Make the arrow inherit the color (white in this case) */
+}
+
+/* Adjust text or icon size, if needed */
+.vfrc-user-message {
+  font-size: 16px; /* Adjust text size */
+}
 }
 .vfrc-chat--dialog {
   max-width: 100% !important; /* Ensure the dialog container also respects this width */
