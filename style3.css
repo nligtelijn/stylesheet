@@ -4,6 +4,14 @@
 .vfrc-assistant-info--description{
   --fonts-default: 'Sevillana', cursive;
 }
+/* Change the background color of system messages to orange */
+.vfrc-system-response .vfrc-message {
+  background-color: orange !important; /* Set the background color to orange */
+  color: white; /* Optional: Adjust text color for better contrast */
+  padding: 12px 16px; /* Ensure padding for readability */
+  border-radius: 8px; /* Keep rounded corners for a polished look */
+  word-wrap: break-word; /* Prevent text overflow */
+}
 .vfrc-chat--dialog {
   max-width: 100% !important; /* Ensure the dialog container also respects this width */
   margin: 0 auto;
