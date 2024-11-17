@@ -42,6 +42,11 @@ button {
   transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
+/* Target the arrow inside the user message container */
+.vfrc-user-message .arrow {
+  color: #28a745; /* Replace with your desired color (e.g., green) */
+  fill: #28a745; /* For SVGs, set the fill color */
+}
 .vfrc-chat--dialog {
   max-width: 100% !important; /* Ensure the dialog container also respects this width */
   margin: 0 auto;
