@@ -4,6 +4,10 @@
 .vfrc-assistant-info--description{
   --fonts-default: 'Sevillana', cursive;
 }
+.vfrc-chat--dialog {
+  max-width: 95% !important; /* Ensure the dialog container also respects this width */
+  margin: 0 auto;
+}
 /* Adjust system response container width */
 .vfrc-system-response {
   max-width: 100%; /* Widen to 95% */
