@@ -34,7 +34,7 @@ button {
 }
 /* Target the arrow button */
 .vfrc-send-button {
-  background-color: #4CAF50; /* Change to green or your desired color */
+  background-color: orange; /* Change to green or your desired color */
   color: white; /* Ensure the icon is visible */
   border: none; /* Remove border if any */
   border-radius: 50%; /* Keep the circular shape */
