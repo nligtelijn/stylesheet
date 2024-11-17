@@ -12,6 +12,14 @@
   border-radius: 8px; /* Keep rounded corners for a polished look */
   word-wrap: break-word; /* Prevent text overflow */
 }
+/* Change the background color of user messages to green */
+.vfrc-user-response .vfrc-message {
+  background-color: green !important; /* Set the background color to green */
+  color: white; /* Optional: Adjust text color for better contrast */
+  padding: 12px 16px; /* Ensure padding for readability */
+  border-radius: 8px; /* Keep rounded corners for a polished look */
+  word-wrap: break-word; /* Prevent text overflow */
+}
 .vfrc-chat--dialog {
   max-width: 100% !important; /* Ensure the dialog container also respects this width */
   margin: 0 auto;
