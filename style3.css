@@ -4,6 +4,8 @@
 .vfrc-assistant-info--description{
   --fonts-default: 'Sevillana', cursive;
 }
+/* .vfrc-system-response {} */
+
 /* Change the background color of system messages to orange */
 .vfrc-system-response .vfrc-message {
   background-color: orange !important; /* Set the background color to orange */
@@ -66,7 +68,7 @@ button {
 }
 /* Adjust system response container width */
 .vfrc-system-response {
-  max-width: 100%; /* Widen to 95% */
+  max-width: 60%; /* Widen to 60% */
   margin: 1px auto; /* Center align */
 }
 
