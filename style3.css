@@ -40,7 +40,7 @@ button {
 }
 /* Change the color of the arrow in the input button */
 .vfrc-chat-input--button {
-  background-color: transparent; /* Ensure no background interference */
+  background-color: orange; /* Ensure no background interference */
 }
 
 .vfrc-chat-input--button svg {
