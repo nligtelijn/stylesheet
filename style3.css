@@ -5,6 +5,10 @@
   --fonts-default: 'Sevillana', cursive;
 }
 /* .vfrc-system-response {} */
+.vfrc-system-response {
+  max-width: 100%; /* Widen to 100% */
+  margin: 1px auto; /* Center align */
+}
 
 /* Change the background color of system messages to orange */
 .vfrc-system-response .vfrc-message {
