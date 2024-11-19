@@ -68,7 +68,7 @@ button {
 }
 /* Adjust system response container width */
 .vfrc-system-response {
-  max-width: 60%; /* Widen to 60% */
+  max-width: 100%; /* Widen to 100% */
   margin: 1px auto; /* Center align */
 }
 
