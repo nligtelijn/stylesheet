@@ -9,17 +9,18 @@
   max-width: 100%; /* Widen to 100% */
   margin: 1px auto; /* Center align */
 }
-/* Target the chat input button background (highest specificity for override) */
+/* Force background color and remove unwanted styles */
 .vfrc-chat-input-button {
-  background-color: #000000 !important; /* Force black background */
-  border: none !important; /* Remove any borders */
+  background-color: #000000 !important; /* Black background */
+  color: #ffffff !important; /* White text (if any) */
+  border: none !important; /* Remove border */
   border-radius: 50% !important; /* Ensure rounded shape */
-  padding: 8px !important; /* Adjust padding if needed */
+  padding: 8px !important; /* Optional: Adjust padding */
 }
 
-/* Target the arrow (SVG) inside the button */
+/* Ensure the arrow inside (SVG) is styled correctly */
 .vfrc-chat-input-button svg {
-  fill: #ffffff !important; /* Set the arrow color to white */
+  fill: #ffffff !important; /* Set the arrow to white */
 }
 
 /* Change the background color of system messages to orange */
